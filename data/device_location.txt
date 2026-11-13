@@ -1,0 +1,2 @@
+# latitude|longitude|source  (simulated GPS reading of this device)
+24.8510|89.3697|GPS

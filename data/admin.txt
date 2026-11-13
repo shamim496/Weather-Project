@@ -1,0 +1,2 @@
+# username|password_hash   (default login: admin / admin123)
+admin|cecb6d736563b583

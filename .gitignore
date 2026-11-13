@@ -1,0 +1,20 @@
+# build output
+bin/
+build/
+obj/
+*.o
+*.exe
+
+# generated at run time
+data/system.log
+data/*.tmp
+reports/*.txt
+tests/tmp_data/
+tests/tmp_reports/
+
+# editor / IDE files
+*.depend
+*.layout
+.vscode/
+*.swp
+.DS_Store

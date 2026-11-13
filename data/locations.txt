@@ -1,0 +1,22 @@
+# id|name|region|latitude|longitude|utc_offset|avg_temp|season_range|daily_range|avg_humidity|rain_tendency
+1|Dhaka|Dhaka Division, Bangladesh|23.8103|90.4125|6.0|26.0|10.0|8.0|75|60
+2|Chattogram|Chattogram Division, Bangladesh|22.3569|91.7832|6.0|25.9|9.0|7.0|78|70
+3|Bogura|Rajshahi Division, Bangladesh|24.8465|89.3773|6.0|25.4|12.0|10.0|73|50
+4|Rajshahi|Rajshahi Division, Bangladesh|24.3745|88.6042|6.0|25.6|13.0|11.0|70|45
+5|Khulna|Khulna Division, Bangladesh|22.8456|89.5403|6.0|26.2|11.0|8.0|78|55
+6|Sylhet|Sylhet Division, Bangladesh|24.8949|91.8687|6.0|24.9|10.0|8.0|80|80
+7|Barishal|Barishal Division, Bangladesh|22.7010|90.3535|6.0|26.0|10.0|7.0|80|65
+8|Rangpur|Rangpur Division, Bangladesh|25.7439|89.2752|6.0|24.6|12.0|10.0|76|55
+9|Mymensingh|Mymensingh Division, Bangladesh|24.7471|90.4203|6.0|25.3|11.0|9.0|77|60
+10|Cox's Bazar|Chattogram Division, Bangladesh|21.4272|92.0058|6.0|26.1|8.0|6.0|80|75
+11|Cumilla|Chattogram Division, Bangladesh|23.4607|91.1809|6.0|25.8|10.0|8.0|77|60
+12|Dinajpur|Rangpur Division, Bangladesh|25.6217|88.6355|6.0|24.8|13.0|11.0|74|50
+13|Kolkata|West Bengal, India|22.5726|88.3639|5.5|26.8|11.0|8.0|74|55
+14|New Delhi|Delhi, India|28.6139|77.2090|5.5|25.0|19.0|12.0|60|30
+15|London|England, United Kingdom|51.5074|-0.1278|0.0|11.3|13.0|7.0|78|50
+16|New York|New York, USA|40.7128|-74.0060|-5.0|12.9|25.0|8.0|64|45
+17|Tokyo|Kanto, Japan|35.6762|139.6503|9.0|15.8|21.0|7.0|65|50
+18|Dubai|Dubai, UAE|25.2048|55.2708|4.0|28.0|17.0|10.0|55|5
+19|Sydney|New South Wales, Australia|-33.8688|151.2093|10.0|18.0|10.0|7.0|68|40
+20|Singapore|Singapore|1.3521|103.8198|8.0|27.6|2.0|6.0|84|75
+21|Moscow|Central Russia, Russia|55.7558|37.6173|3.0|5.8|27.0|7.0|77|45

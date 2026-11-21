@@ -113,6 +113,11 @@ static void do_login(void)
             ui_pause();
             return;
         }
+        if (admin_login(username, password)) {   /* admin used the user login */
+            log_event("LOGIN", "administrator logged in");
+            admin_session_run();
+            return;
+        }
         log_event("LOGIN_FAIL", "wrong username or password for '%s'", username);
         ui_msg_error("Wrong username or password. (%d of %d attempts used)", attempt,
                      MAX_LOGIN_TRIES);
@@ -261,6 +266,9 @@ int main(int argc, char *argv[])
         ui_menu_item(3, "Admin Login");
         ui_menu_item(4, "About this System");
         ui_menu_item(0, "Exit");
+        ui_color(COL_MUTED);
+        printf("\n  Admin login: admin / admin123  (option 3)\n");
+        ui_reset();
         printf("\n");
         choice = input_int("Enter your choice: ", 0, 4);
 

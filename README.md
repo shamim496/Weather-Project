@@ -118,6 +118,17 @@ build.bat test      :: unit tests
 gcc -std=c99 -Wall -Wextra -Iinclude src/*.c -o weather -lm
 ```
 
+### Single-file version
+`single/weather_single.c` contains the whole program (all headers and sources merged) in
+**one C file**, so it can be pasted into an online compiler or opened alone in Code::Blocks:
+
+```bash
+gcc -std=c99 -O2 single/weather_single.c -o weather -lm
+./weather
+```
+
+The `data/` and `reports/` folders are created automatically next to where it runs.
+
 ## Run
 
 Run the program **from the project folder** so it finds `data/`:
